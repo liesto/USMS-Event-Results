@@ -1,0 +1,29 @@
+{
+  "name": "usms-event-results-api",
+  "version": "1.0.0",
+  "description": "USMS Event Results API Server (TypeScript POC)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": ["usms", "swimming", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "@types/cors": "^2.8.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
